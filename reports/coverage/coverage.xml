@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656873933">
-  <project timestamp="1656873933">
+<coverage generated="1656874945">
+  <project timestamp="1656874945">
     <file name="/var/www/html/app/Console/Commands/CalculateAffordabilityCommand.php">
       <class name="App\Console\Commands\CalculateAffordabilityCommand" namespace="global">
         <metrics complexity="5" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="15" coveredelements="15"/>

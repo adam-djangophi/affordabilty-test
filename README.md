@@ -29,9 +29,9 @@ you need to exec into the container and run it from the command line
 
 once there you will need run the CalculateAffordabilityCommand command as such:
 
-`calculate:affordability`
+`php artisan calculate:affordability`
 
-`calculate:affordability 1000` - where 1000 is the current rent
+`php artisan calculate:affordability 1000` - where 1000 is the current rent
 
 ## Tests
 
