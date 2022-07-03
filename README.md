@@ -1,4 +1,4 @@
-# Vouch Backend Exercise
+# Backend Exercise
 
 ## Somethings  I would improve
 - better validation - e.g. date parsing, address checks, currency checks etc..
