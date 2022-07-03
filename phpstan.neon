@@ -1,0 +1,19 @@
+includes:
+    - ./vendor/phpstan/phpstan/conf/bleedingEdge.neon
+parameters:
+    phpVersion: 80104 # PHP 8.1.4
+    checkGenericClassInNonGenericObjectType: false
+    paths:
+        - app
+        - tests
+    level: 5
+    inferPrivatePropertyTypeFromConstructor: true
+    checkMissingIterableValueType: false
+    excludePaths:
+        - %currentWorkingDirectory%/app/Providers/*
+        - %currentWorkingDirectory%/app/Http/Middleware*
+    ignoreErrors:
+        - '#Parameter \#1 \$disposableIncomeService#'
+        - '#Binary operation \"\*\"#'
+
+
